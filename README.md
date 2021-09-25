@@ -2,7 +2,7 @@
 
 # Fahlia's Books
 
-### _A front-end website featuring HTML and CSS to list my daughter's favorite books and the science behind why reading ._
+### _A front-end website featuring HTML and CSS to list my daughter's favorite books and the science behind why reading to babies is essential for their development._
 </div>
 
 ## Table of Contents
@@ -28,7 +28,7 @@
 
 ## Deployed Site
 
-   This is the link to view my portfolio: (https://celestealexmoore.github.io/Celeste-Moore-Portfolio/)
+   This is the link to view Fahlia's site: (https://celestealexmoore.github.io/fahlias-books/)
 
 ## Contributors
 
