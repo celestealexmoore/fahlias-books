@@ -22,8 +22,9 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
+.seo {
+    height: 50px;
+    width: auto;
 }
 
 .header div {
