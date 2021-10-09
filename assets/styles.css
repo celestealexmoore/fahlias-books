@@ -54,10 +54,9 @@ p {
 
 #banner {
     position: relative;
-    max-width: 100%;
+    max-width: 95%;
     border-radius: 5px;
     margin: 0 auto;
-    z-index: -1;
     border: 3px white dashed;
 }
 
@@ -76,65 +75,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-#whyRead {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: pink;
-}
-
-/*Condensed Code*/
-.benefits {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-/*Condensed Code*/
-.benefits h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/*Condensed Code*/
-.benefits img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-/*Condensed Code*/
-
-.search {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: pink;
-    color: #ffffff;
-}
-
-/*Condensed Code*/
-
-.search img {
-    max-height: 200px;
-}
-
-/*Condensed Code*/
-
-.search h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* this is where the large aside content goes */
 
 #footerTop {
     padding: 30px;
@@ -178,6 +119,11 @@ p {
 #footerPhoto {
     position: relative;
     max-width: 100%;
+    margin: 0 auto;
+}
+
+#copywrite {
+    color: rgb(77, 33, 41);
 }
 
 @media (min-width:577px) {
@@ -186,6 +132,59 @@ p {
     }
     .image-2 {
     display: none;
+    }
+    #contentSection {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    #content {
+        display:flex;
+        flex-flow: column nowrap;
+    }
+    .books {
+        margin: 0 0 20px 20px;
+        padding: 5%;
+        width:75%;
+        height: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: pink;
+        color: #ffffff;
+    }
+    
+    .books img {
+        max-height: 200px;
+    }
+    
+    .books h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    
+    #whyRead {
+        display:flex;
+        flex-flow: column nowrap;
+        align-self: center;
+        padding: 20px;
+        width: 400px;
+        margin-left: -150px;
+        background-color: pink;
+        text-align:center;
+    }
+    .benefits {
+        margin-bottom: 30px;
+    }
+    
+    .benefits h3 {
+        margin-bottom: 10px;
+        text-align: center;
+        color: rgb(77, 33, 41);
+    }
+    
+    .benefits img {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
     }
 }
 
@@ -201,5 +200,66 @@ p {
     }
     #footerUl ul li{
         padding: 5px;
+    }
+
+    #contentSection {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content:center;
+    }
+
+    #content {
+        display:flex;
+        flex-flow: column nowrap;
+    }
+
+    .books {
+        display:flex;
+        flex-flow: column nowrap;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 20px;
+        padding: 5%;
+        width:100;
+        height: auto;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: pink;
+        color: #ffffff;
+
+    }
+    
+    .books img {
+        width: 40%;
+    }
+    
+    .books h2 {
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+
+
+    #whyRead {
+        padding: 10px;
+        margin: 10px;
+        justify-content: center;
+        width: 100%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: pink;
+        text-align: center;
+    }
+    .benefits {
+        margin-bottom: 32px;
+    }
+
+    .benefits h3 {
+        margin-bottom: 10px;
+        text-align: center;
+        color: rgb(77, 33, 41);
+    }
+
+    .benefits img {
+        display: block;
+        margin: 10px auto;
+        width: 20%;
     }
 }
