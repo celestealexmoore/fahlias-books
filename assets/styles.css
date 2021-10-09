@@ -126,7 +126,7 @@ p {
     color: rgb(77, 33, 41);
 }
 
-@media (min-width:577px) {
+@media (min-width:769px) {
     .image-1 {
     display: block;
     }
@@ -188,7 +188,7 @@ p {
     }
 }
 
-@media (max-width:576px) {
+@media (max-width:768px) {
     .image-1 {
     display: none;
     }
